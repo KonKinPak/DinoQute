@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0"
+	prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="application.TutorialController">
+	<children>
+		<ImageView fitHeight="640.0" fitWidth="600.0" opacity="0.7"
+			pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../res/SelectModeChar.png" />
+			</image>
+		</ImageView>
+		<Button fx:id="btnBack2" layoutX="58.0" layoutY="536.0"
+			mnemonicParsing="false" onAction="#back2" onMouseClicked="#back2"
+			onMouseEntered="#MouseEnterBack2" onMouseExited="#MouseExitBack2"
+			prefHeight="52.0" prefWidth="139.0"
+			style="-fx-background-color: WHITE;" text="BACK">
+			<font>
+				<Font size="26.0" />
+			</font>
+		</Button>
+		<Button fx:id="btnNext2" layoutX="402.0" layoutY="536.0"
+			mnemonicParsing="false" onAction="#next2" onMouseClicked="#next2"
+			onMouseEntered="#MouseEnterNext2" onMouseExited="#MouseExitNext2"
+			prefHeight="52.0" prefWidth="139.0"
+			style="-fx-background-color: WHITE;" text="NEXT">
+			<font>
+				<Font size="26.0" />
+			</font>
+		</Button>
+		<Text layoutX="55.0" layoutY="79.0" strokeType="OUTSIDE"
+			strokeWidth="0.0" text="Choose mode" wrappingWidth="334.960693359375">
+			<font>
+				<Font size="33.0" />
+			</font>
+		</Text>
+		<Text fill="#9a2929" layoutX="53.0" layoutY="194.0"
+			strokeType="OUTSIDE" strokeWidth="0.0"
+			text="HELL MODE : Like &quot;HARD&quot; but faster"
+			wrappingWidth="456.04598950418455">
+			<font>
+				<Font size="16.0" />
+			</font>
+		</Text>
+		<Text fill="#046f0f" layoutX="51.0" layoutY="118.0"
+			strokeType="OUTSIDE" strokeWidth="0.0"
+			text="CLASSIC MODE : Pick up food and don't hit your friends"
+			wrappingWidth="468.4920349121094">
+			<font>
+				<Font size="16.0" />
+			</font>
+		</Text>
+		<Text fill="#8d710a" layoutX="53.0" layoutY="156.0"
+			strokeType="OUTSIDE" strokeWidth="0.0"
+			text="HARD MODE : Pick up food and beware obstacle"
+			wrappingWidth="477.2266540527344">
+			<font>
+				<Font size="16.0" />
+			</font>
+		</Text>
+		<ImageView fitHeight="203.0" fitWidth="193.0" layoutX="66.0"
+			layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../res/example1.png" />
+			</image>
+		</ImageView>
+		<ImageView fitHeight="192.0" fitWidth="195.0"
+			layoutX="333.0" layoutY="214.0" pickOnBounds="true"
+			preserveRatio="true">
+			<image>
+				<Image url="@../../res/example2.png" />
+			</image>
+		</ImageView>
+		<Text fill="WHITE" layoutX="70.0" layoutY="398.0"
+			strokeType="OUTSIDE" strokeWidth="0.0" text="PICK UP FOOD"
+			wrappingWidth="137.6031494140625">
+			<font>
+				<Font name="System Bold" size="16.0" />
+			</font>
+		</Text>
+		<Text fill="WHITE" layoutX="332.0" layoutY="398.0"
+			strokeType="OUTSIDE" strokeWidth="0.0" text="DO NOT HIT OBSTACLE"
+			textAlignment="CENTER" wrappingWidth="192.0">
+			<font>
+				<Font name="System Bold" size="16.0" />
+			</font>
+		</Text>
+		<Text fill="#75b94a" layoutX="68.0" layoutY="437.0"
+			strokeType="OUTSIDE" strokeWidth="0.0" text="FOOD"
+			wrappingWidth="137.6031494140625">
+			<font>
+				<Font name="System Bold" size="28.0" />
+			</font>
+		</Text>
+		<Text fill="#e16363" layoutX="337.0" layoutY="436.0"
+			strokeType="OUTSIDE" strokeWidth="0.0" text="OBSTACLE"
+			wrappingWidth="151.203125">
+			<font>
+				<Font name="System Bold" size="28.0" />
+			</font>
+		</Text>
+		<ImageView fitHeight="26.0" fitWidth="41.0" layoutX="89.0"
+			layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../res/apple.png" />
+			</image>
+		</ImageView>
+		<ImageView fitHeight="26.0" fitWidth="41.0" layoutX="139.0"
+			layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../res/apple1.png" />
+			</image>
+		</ImageView>
+		<ImageView fitHeight="26.0" fitWidth="41.0" layoutX="193.0"
+			layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../res/apple2.png" />
+			</image>
+		</ImageView>
+		<ImageView fitHeight="26.0" fitWidth="41.0" layoutX="116.0"
+			layoutY="487.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../res/apple3.png" />
+			</image>
+		</ImageView>
+		<ImageView fitHeight="26.0" fitWidth="41.0" layoutX="220.0"
+			layoutY="484.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../res/apple5.png" />
+			</image>
+		</ImageView>
+		<ImageView fitHeight="26.0" fitWidth="41.0" layoutX="167.0"
+			layoutY="486.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../res/apple4.png" />
+			</image>
+		</ImageView>
+		<ImageView fitHeight="35.0" fitWidth="35.0" layoutX="356.0"
+			layoutY="459.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../res/obstacle0.gif" />
+			</image>
+		</ImageView>
+		<ImageView fitHeight="26.0" fitWidth="41.0" layoutX="413.0"
+			layoutY="463.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../res/obstacle1.gif" />
+			</image>
+		</ImageView>
+		<ImageView fitHeight="26.0" fitWidth="41.0" layoutX="467.0"
+			layoutY="467.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../res/obstacle2.gif" />
+			</image>
+		</ImageView>
+		<ImageView fitHeight="26.0" fitWidth="41.0" layoutX="518.0"
+			layoutY="466.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../res/obstacle3.gif" />
+			</image>
+		</ImageView>
+	</children>
+</Pane>
